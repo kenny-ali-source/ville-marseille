@@ -63,12 +63,59 @@ nav a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 580px;
+    height: 552px;
     background-image: url(../images/parc/palais-longchamp-fontainelamyotcm-1920x960-crop-1606213200.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 23px;
     font-weight: bolder;
+}
+
+.m4_pres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin:40px;
+    font-style: italic;
+
+}
+
+.m4_pres div{
+    width: 1035px;
+}
+
+.m4_imgR_textL_sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1487px;
+}
+
+.m4_imgR_textL_sec1 div  {
+    margin: 10px;
+}
+
+.m4_textL_sec1 {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+}
+
+.m4_imgR_sec1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 665px;
+}
+
+.m4_imgR_sec1 div{
+    height: 342px;
+}
+
+.m4_imgR_sec1 img {
+    height: 312px;
+    width: 312px;
 }
