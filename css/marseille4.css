@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #ffffff;
+}
+
+
+/* Styles de la barre de navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Styles des liens dans la barre de navigation */
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #009EDC;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#nom_art {
+    font-size: 50px;
+    font-family: Cinzel;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    object-fit: contain;
+}
+
+#img_parc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    background-image: url(../images/parc/palais-longchamp-fontainelamyotcm-1920x960-crop-1606213200.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+}
