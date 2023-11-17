@@ -73,6 +73,8 @@ nav a:hover {
     font-weight: bolder;
 }
 
+/* CSS DE PRESENTATION */
+
 .m4_pres{
     display: flex;
     flex-direction: row;
@@ -86,22 +88,35 @@ nav a:hover {
 .m4_pres div{
     width: 1035px;
 }
+/* FIN CSS DE PRESENTATION*/
 
+/* SECTION 1 IMGR + TXTL ESPACE VERT */
 .m4_imgR_textL_sec1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1487px;
-}
-
-.m4_imgR_textL_sec1 div  {
-    margin: 10px;
 }
 
 .m4_textL_sec1 {
     display: flex;
     flex-direction: column;
-    width: 645px;
+    width: 770px;
+}
+
+.m4_textL_sec1 div  {
+    margin: 10px;
+}
+
+.m4_textL_sec1 h2 {
+    font-size: 40px;
+}
+
+.m4_textL_sec1 h3 {
+    font-size: 30px;
+}
+
+.m4_textL_sec1 h2, .m4_textL_sec1 h3  {
+    margin-bottom: 10px;
 }
 
 .m4_imgR_sec1 {
@@ -109,13 +124,167 @@ nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     width: 665px;
+    margin-bottom: 0;
+    gap: 30px;
+    align-content: center;
 }
 
 .m4_imgR_sec1 div{
-    height: 342px;
+    height: 312px;
 }
 
 .m4_imgR_sec1 img {
     height: 312px;
     width: 312px;
+    border-radius: 10px;
 }
+/* FIN SECTION 1 IMGL + TXTR ESPACE VERT */
+
+/********************************************************************/
+
+/* SECTION 2 IMGL + TXTR ESPACE VERT */
+
+.m4_imgL_textR_sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.m4_textR_sec2 {
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+}
+
+.m4_textR_sec2 div  {
+    margin: 20px;
+}
+
+.m4_textR_sec2 h2 {
+    font-size: 35px;
+}
+
+.m4_textR_sec2 h3 {
+    font-size: 30px;
+}
+
+.m4_textR_sec2 h2, .m4_textR_sec2 h3  {
+    margin-bottom: 10px;
+}
+
+.m4_imgL_sec2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 653px;
+    margin-bottom: 0;
+    gap: 30px;
+    align-content: center;
+}
+
+
+.m4_imgL_sec2 img {
+    width: 653px;
+    border-radius: 10px;
+}
+
+/* SECTION 2 IMGL + TXTR ESPACE VERT */
+
+/********************************************************************/
+
+/* START SECTION 1TXT - 1IMG  */
+
+.m4_1txt_1img {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 20px;
+}
+
+.m4_1txt{
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+}
+
+.m4_1txt h2 {
+    margin: 20px;
+    font-size: 35px;
+}
+
+.m4_1txt p {
+    margin: 20px;
+}
+
+.m4_1img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 653px;
+    margin-bottom: 0;
+    align-content: center;
+}
+
+.m4_1img img {
+    height: 490px;
+    width: 653px;
+    border-radius: 10px;
+}
+
+
+/* START SECTION 1TXT - 1IMG */
+
+/********************************************************************/
+
+/* FOOTER SECTION*/
+
+.park_address{
+    font-style: italic;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #009EDC;
+    opacity: 0.9;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul,
+.footerNav li,
+.footerNav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.5s;
+    list-style-type: none;
+    color: #009EDC;
+    text-transform: uppercase;
+}
+
+.footerBottom p {
+    text-align: center;
+    margin: 20px;
+}
+
+.footerNav a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER SECTION*/
