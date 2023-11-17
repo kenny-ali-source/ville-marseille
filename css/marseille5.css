@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #ffffff;
+}
+
+
+/* Styles de la barre de navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Styles des liens dans la barre de navigation */
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #009EDC;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#nom_art {
+    font-size: 50px;
+    font-family: Cinzel;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    object-fit: contain;
+}
+
+#img_mus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+    background-image: url(../images/musee/musee_bg_header.webp);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* CSS DE PRESENTATION */
+
+.m5_pres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    font-style: italic;
+}
+
+.m5_pres div {
+    width: 1035px;
+}
+
+/* FIN CSS DE PRESENTATION*/
+
+
+/*START M5 GALLERIE MUSEE*/
+#img1 {
+    background-image: url(../images/musee/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 294px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#img2 {
+    background-image: url(../images/musee/02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 424px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#img3 {
+    background-image: url(../images/musee/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 229px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+#img4 {
+    background-image: url(../images/musee/04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 229px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#img5 {
+    background-image: url(../images/musee/05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 229px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#img6 {
+    background-image: url(../images/musee/06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 424px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#img7 {
+    background-image: url(../images/musee/07.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 294px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.m5_galeries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.m5_galeries p {
+    margin: 15px;
+}
+
+.m5_gal_sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m5_gal_sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m5_gal_sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_box1, .img_box2, .img_box3 {
+    width: 425px;
+}
+
+.img_box1 {
+    height: 294px;
+    margin: 10px;
+}
+
+
+.img_box2 {
+    height: 424px;
+    margin: 10px;
+}
+
+.img_box3 {
+    height: 229px;
+    margin: 10px;
+}
+
+
+.m5_galeries div:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.m5_galeries a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* */
+
+#button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+
+button {
+    height: 40px;
+    width: 313px;
+    background-color: #009EDC;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.but a {
+   color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+/*START M5 GALLERIE MUSEE*/
+
+/* FOOTER SECTION*/
+
+.park_address {
+    font-style: italic;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #009EDC;
+    opacity: 0.9;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul,
+.footerNav li,
+.footerNav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.5s;
+    list-style-type: none;
+    color: #009EDC;
+    text-transform: uppercase;
+}
+
+.footerBottom p {
+    text-align: center;
+    margin: 20px;
+}
+
+.footerNav a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER SECTION*/
