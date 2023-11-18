@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Ville de Marseille</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="/histoire.html">Histoire</a></li>
+                <li><a href="marseille2.html">Histoire</a></li>
                 <li><a href="#">Randonnées</a></li>
             </ul>
             <div class="logo">
@@ -19,164 +24,255 @@
                 <a href="index.html" id="nom_art">Marseille</a>
             </div>
             <ul>
-                <li><a href="#">Plages</a></li>
-                <li><a href="#">Parcs</a></li>
+                <li><a href="/marseille3.html">Plages</a></li>
+                <li><a href="marseille4.html">Parcs</a></li>
                 <li><a href="#">Musée</a></li>
             </ul>
         </nav>
         <div id="img_header"></div>
     </header>
-    
-    <section class="thematic">
-       
-        <h2>Thématiques</h2>
-        <ul class="thematics-content">
-            <div class="div1">
-                <li class="education">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/education_logo.svg" alt="">
-                    <h3>Éducation
-                    <a href="#"></a>
-                     </h3>
-                    </div>
-                    
-                </li>
-                <li class="culture">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/culture_logo.svg" alt="">
-                        <h3>culture
-                        <a href="#"></a>
-                    </h3>
-                    </div>
-                   
-                
-                </li>
-                <li class="discover-marseille">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/decouvrir_Marseille_logo.svg" alt="">
-                        <h3>Découvrir&nbspMarseille 
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                   
-                </li>
+    <main>
+     <section class="actualite">
+            <div class="title">
+                <h2>ACTUALITÉS</h2>
             </div>
-           <div class="div2">
-            <li class="sport-hobby">
-                <div class="logo">
-                    <img src="/images/logo-thematique/sport_loisirs_logo.svg" alt="">
-                    <h3>Sport&nbsp-&nbspLoisirs
-                        <a href="#"></a>
-                    </h3>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/01.png" alt="Avatar" class="img_entreprise" id="img_ent1">
+                    <div class="container">
+                        <h3 class="envi">ENVIRONNEMENT</h3>
+                        <p>La voie est libre : profitez de la Corniche piétonnisée ce dimanche 19 novembre</p>
+                    </div>
                 </div>
-            </li>
-                <li class="economy">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/economie_logo.svg" alt="">
-                        <h3>Économie
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                </li>
-                <li class="environment">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/environnement_logo.svg" alt="">
-                        <h3>Environnement
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                  
-                </li>
-           </div>
-            <div class="div3">
-                <li class="e-services">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/Eservices_logo.svg" alt="">
-                        <h3>E&nbsp-&nbspservices
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                  
-                </li>
-                <li class="international">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/international_logo.svg" alt="">
-                        <h3>International
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                  
-                </li>
-                <li class="urban-planning">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/logement_et_urbanisme_logo.svg" alt="">
-                        <h3>Logement&nbsp-&nbspUrbanisme
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                 
-                </li>
             </div>
-            <div class="div4">
-                <li class="mayor">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/maire_logo.svg" alt="">
-                        <h3>Maire
-                        <a href="#"></a>
-                        </h3>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/02.png" alt="Avatar" class="img_entreprise" id="img_ent2">
+                    <div class="container">
+                        <h3 class="mairie">MAIRIE</h3>
+                        <p>Marseille - Le magazine des Marseillaises et des Marseillais
+                        </p>
                     </div>
-                   
-                </li>
-                <li class="sea">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/mer_logo.svg" alt="">
-                        <h3>Mer
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                 
-                </li>
-                <li class="prevention">
-                    <div class="logo">
-                        <img src="/images/logo-thematique/prevention_log.svg" alt="">
-                    <h3>Prévention
-                        <a href="#"></a>
-                    </h3>
-                    </div>
-                    
-                </li>
+                </div>
             </div>
-           <div class="div5">
-            <li class="health">
-                <div class="logo">
-                    <img src="/images/logo-thematique/sante_logo.svg" alt="">
-                    <h3>Santé
-                        <a href="#"></a>
-                    </h3>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/03.png" alt="Avatar" class="img_entreprise" id="img_ent3">
+                    <div class="container">
+                        <h3 class="envi">ENVIRONNEMENT</h3>
+                        <p>La Ville de Marseille engagée pour la prévention des risques majeurs</p>
+                    </div>
                 </div>
-               
-            </li>
-            <li class="social">
-                <div class="logo">
-                    <img src="/images/logo-thematique/social_logo.svg" alt="">
-                    <h3>Social
-                        <a href="#"></a>
-                    </h3>
+            </div>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/04.jpg" alt="Avatar" class="img_entreprise" id="img_ent3">
+                    <div class="container">
+                        <h3 class="culture">CULTURE</h3>
+                        <p>Exposition "La fabrique de l'espoir" aux Archives de Marseille</p>
+                    </div>
                 </div>
-               
-            </li>
-            <li class="move">
-                <div class="logo">
-                    <img src="/images/logo-thematique/deplacer_logo.svg" alt="">
-                    <h3>Se déplacer
-                        <a href="#"></a>
-                    </h3>
+            </div>
+        </section>
+        <section class="actualite">
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/05.png" alt="Avatar" class="img_entreprise" id="img_ent1">
+                    <div class="container">
+                        <h3 class="edu">EDUCATION</h3>
+                        <p>Rejoignez le Conseil marseillais de la vie étudiante, la Ville de Marseille vous donne la
+                            parole !</p>
+                    </div>
                 </div>
-               
-            </li>
-           </div>
-           
-        </ul>
-    </section>
+            </div>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/06.png" alt="Avatar" class="img_entreprise" id="img_ent2">
+                    <div class="container">
+                        <h3 class="edu">EDUCATION</h3>
+                        <p>La Ville de Marseille poursuit son engagement contre la précarité étudiante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/07.png" alt="Avatar" class="img_entreprise" id="img_ent3">
+                    <div class="container">
+                        <h3 class="culture">CULTURE</h3>
+                        <p>"Baya. Une héroïne algérienne de l'art moderne" au Centre de la Vieille Charité</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card_box">
+                <div class="card">
+                    <img src="images/actu/08.png" alt="Avatar" class="img_entreprise" id="img_ent3">
+                    <div class="container">
+                        <h3 class="culture">CULTURE</h3>
+                        <p>Profitez des bibliothèques gratuitement, toute l'année !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="v_plus"><a href="#">Voir plus d’actualités</a></div>
+        <section class="thmatic">
+            <div class="title">
+                <h2>THÉMATIQUES</h2>
+            </div>
+            <ul class="thematics-content">
+                <div class="div1">
+                    <li class="education">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/education_logo.svg" alt="">
+                            <h3>Éducation
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+
+                    </li>
+                    <li class="culture2">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/culture_logo.svg" alt="">
+                            <h3>culture
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="discover-marseille">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/decouvrir_Marseille_logo.svg" alt="">
+                            <h3>Découvrir&nbspMarseille
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </li>
+                </div>
+                <div class="div2">
+                    <li class="sport-hobby">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/sport_loisirs_logo.svg" alt="">
+                            <h3>Sport&nbsp-&nbspLoisirs
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="economy">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/economie_logo.svg" alt="">
+                            <h3>Économie
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="environment">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/environnement_logo.svg" alt="">
+                            <h3>Environnement
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </li>
+                </div>
+                <div class="div3">
+                    <li class="e-services">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/Eservices_logo.svg" alt="">
+                            <h3>E&nbsp-&nbspservices
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="international">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/international_logo.svg" alt="">
+                            <h3>International
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+
+                    </li>
+                    <li class="urban-planning">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/logement_et_urbanisme_logo.svg" alt="">
+                            <h3>Logement&nbsp-&nbspUrbanisme
+                                <a href="#"></a>
+                            </h3>
+                        </div>
+
+                    </li>
+                </div>
+                <div class="div4">
+                    <li class="mayor">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/maire_logo.svg" alt="">
+                            <h3>Maire</h3>
+                        </div>
+
+                    </li>
+                    <li class="sea">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/mer_logo.svg" alt="">
+                            <h3>Mer</h3>
+                        </div>
+
+                    </li>
+                    <li class="prevention">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/prevention_log.svg" alt="">
+                            <h3>Prévention</h3>
+                        </div>
+
+                    </li>
+                </div>
+                <div class="div5">
+                    <li class="health">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/sante_logo.svg" alt="">
+                            <h3>Santé</h3>
+                        </div>
+
+                    </li>
+                    <li class="social">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/social_logo.svg" alt="">
+                            <h3>Social</h3>
+                        </div>
+
+                    </li>
+                    <li class="move">
+                        <div class="logo">
+                            <img src="/images/logo-thematique/deplacer_logo.svg" alt="">
+                            <h3>Se déplacer
+                            </h3>
+                        </div>
+
+                    </li>
+                </div>
+
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Randonnées</a></li>
+                <li><a href="#">Plages</a></li>
+                <li><a href="#">Parcs</a></li>
+                <li><a href="#">Musée</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright 2023 - Fanspage Tous droits réservés</p>
+        </div>
+    </footer>
 </body>
+
 </html>

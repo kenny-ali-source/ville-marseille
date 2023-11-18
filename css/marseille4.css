@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #ffffff;
+}
+
+
+/* Styles de la barre de navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Styles des liens dans la barre de navigation */
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #009EDC;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#nom_art {
+    font-size: 50px;
+    font-family: Cinzel;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    object-fit: contain;
+}
+
+#img_parc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 552px;
+    background-image: url(../images/parc/palais-longchamp-fontainelamyotcm-1920x960-crop-1606213200.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.m4_pres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin:40px;
+    font-style: italic;
+
+}
+
+.m4_pres div{
+    width: 1035px;
+}
+
+.m4_imgR_textL_sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1487px;
+}
+
+.m4_imgR_textL_sec1 div  {
+    margin: 10px;
+}
+
+.m4_textL_sec1 {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+}
+
+.m4_imgR_sec1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 665px;
+}
+
+.m4_imgR_sec1 div{
+    height: 342px;
+}
+
+.m4_imgR_sec1 img {
+    height: 312px;
+    width: 312px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer
+{
+   border: 2px solid #009EDC;
+}
+.socialIcons a i {
+    font-size: 2em;
+    color: #009EDC;
+    opacity: 0.9;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul,
+.footerNav li,
+.footerNav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.5s;
+    list-style-type: none;
+    color: #009EDC;
+    text-transform: uppercase;
+}
+
+.footerBottom p {
+    text-align: center;
+    margin: 20px;
+}
+
+.footerNav a:hover {
+    text-decoration: underline;
+}
