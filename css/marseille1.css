@@ -56,25 +56,23 @@ nav a:hover {
 
 .logo img {
     object-fit: contain;
-    cursor: pointer;
 }
 
-#img_parc {
+#img_panier {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 552px;
-    background-image: url(../images/contact/img_header_c.jpg);
+    background-image: url(../images/vue-panier.jpeg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
     font-size: 23px;
     font-weight: bolder;
+    
 }
-
-/* CSS DE PRESENTATION */
 
 .m4_pres{
     display: flex;
@@ -89,81 +87,49 @@ nav a:hover {
 .m4_pres div{
     width: 1035px;
 }
-/* FIN CSS DE PRESENTATION*/
 
-/**/
-
-p,
-h2 {
-    text-align: center;
-    white-space: pre-line;
-}
-
-.contact_form {
+.m4_imgR_textL_sec1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1487px;
+    
+   
 }
-
-.form_form h2, .form_form p {
+.m4_textL_sec1, h2, p :not(.m4_imgR_textL_sec1)
+{
     margin: 20px;
 }
 
-form {
-    background-color: #ffffff20;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.114);
-    width: 100%;
-    max-width: 880px;
-    box-sizing: border-box;
+.m4_imgR_textL_sec1 div  {
+    margin: 10px;
 }
 
-label {
-    display: block;
-    margin-bottom: 8px;
+.m4_textL_sec1 {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
 }
 
-.contact_form input,
-select,
-textarea {
-    width: 100%;
-    padding: 16px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-input[type="checkbox"] {
-    margin-right: 8px;
-}
-
-button {
+.m4_imgR_sec1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    flex-wrap: wrap;
+    width: 665px;
 }
 
-button:hover {
-    background-color: #45a049;
+.m4_imgR_sec1 div{
+    height: 342px;
+    
 }
 
-/**/
+.m4_imgR_sec1 img {
+    height: 312px;
+    width: 312px;
+    
+}
 
 /* FOOTER SECTION*/
-
-.park_address {
-    font-style: italic;
-}
 
 .socialIcons {
     display: flex;
